@@ -11,8 +11,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.scene.input.KeyEvent;
 
-import java.awt.event.KeyEvent;
 
 public class MoreFX extends Application {
     public static void main(String[] args) {
@@ -55,7 +55,7 @@ public class MoreFX extends Application {
         cancel.setOnAction(event -> cancel(userField, passwordField));
         userField.setOnAction(event -> ok(userField.getText(), passwordField.getText()));
         passwordField.setOnAction(event -> cancel(userField, passwordField));
-        //userField.setOnKeyTyped(event -> echo(event));
+        userField.setOnKeyTyped(event -> echo(event));
 
 
         // Scene
@@ -82,6 +82,6 @@ public class MoreFX extends Application {
     }
 
     private void echo(KeyEvent e) {
-        System.out.println(e.getKeyChar());
+        System.out.println(e.getCharacter());
     }
 }
