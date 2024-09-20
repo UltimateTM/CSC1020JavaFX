@@ -11,5 +11,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="javafx" level="application" />
+    <orderEntry type="library" name="ImageUtil" level="project" />
   </component>
 </module>
