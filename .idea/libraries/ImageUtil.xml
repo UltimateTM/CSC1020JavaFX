@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ImageUtil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../../CSC1020/lab-3-image-manipulator-3000-UltimateTM/lib/ImageUtil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
